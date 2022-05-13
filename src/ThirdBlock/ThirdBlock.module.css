@@ -1,0 +1,28 @@
+.main{
+    height: 100vh;
+    background-color: rgba(250, 135, 170, 0.44);
+}
+.container{
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+    border: 1px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media(max-width: 550px){
+    .container{
+        justify-content: center;
+        flex-direction: inherit;
+    }
+    .row{
+        justify-content: center;
+    }
+    .main{
+        height: auto;
+    }
+}

@@ -1,0 +1,14 @@
+.main{
+    height: 40vh;
+    background-color: rgba(135, 185, 250, 0.44);
+}
+.container{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hire{
+    background-color: white;
+    width: 20%;
+    margin: 0 auto;
+}

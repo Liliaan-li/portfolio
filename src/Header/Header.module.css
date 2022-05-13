@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    background-color: #a6ceea;
+    padding: 0 5%;
+    align-items: center;
+}
+@media(max-width: 550px){
+    .header {
+        justify-content: center;
+    }
+}

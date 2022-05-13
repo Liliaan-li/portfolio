@@ -1,0 +1,29 @@
+.main{
+    height: 40vh;
+    background-color: rgba(135, 185, 250, 0.44);
+}
+.container{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.row{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    height: 80px;
+    width: 80px;
+}
+
+.p{
+    font-weight: bold;
+    margin: 0 auto;
+    background-color: white;
+    width:40%;
+}
+.p p{
+    margin: 0;
+}

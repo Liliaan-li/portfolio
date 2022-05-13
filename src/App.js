@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./Header/Header";
+import FirstBlock from "./FirstBlock/FirstBlock";
+import SecondBlock from "./SecondBlock/SecondBlock";
+import ThirdBlock from "./ThirdBlock/ThirdBlock";
+import FourthBlock from "./FourthBlock/FourthBlock";
+import FifthBlock from "./FifthBlock/FifthBlock";
+import Footer from "./Footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <FirstBlock/>
+            <SecondBlock />
+            <ThirdBlock/>
+            <FourthBlock/>
+            <FifthBlock/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

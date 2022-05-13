@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    border: 1px solid white;
+    width:240px;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.img_div {
+    height: 80px;
+    width: 80px;
+    margin: 7% auto;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+.text{
+    font-weight: bold;
+}
+
+.skillDescriptionBlock {
+    border: 1px solid white;
+    font-weight: bold;
+}

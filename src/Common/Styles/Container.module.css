@@ -1,0 +1,15 @@
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    border: 1.5px solid white;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+@media(max-width:550px){
+    .container{
+        width: 100%;
+    }
+}
